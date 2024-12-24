@@ -1,0 +1,259 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="minicircle"></div>
+    <div class="wrapper">
+        <form id="form" method="post" action="/" class="mt-4">
+            <div class="mb-3">
+            <div class="heading">Phishing Link Classifier</div>
+            <div class="url-tag">Enter URL</div>
+            <input class="input" type="text" name="url" placeholder="https://example.com" autofocus autocomplete="off" required>
+            <button type="submit" class="bttn">SUBMIT</button>
+        </div>
+        </form>
+        {% if result %}
+        <div class="mt-4">
+            <h3 class="text-center">Result:</h3>
+            <div class="alert {% if result == 'Legitimate' %}alert-success{% else %}alert-danger{% endif %} text-center" role="alert">
+                {{ result }}
+            </div>
+        </div>
+    {% endif %}
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        @font-face {
+            font-family: neu;
+            src: url(./NeueHaasDisplayRoman.ttf);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+        }
+
+        #minicircle {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background-color: black;
+            color: #F24325;
+            z-index: 2;
+            border-radius: 50%;
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.7s;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #EFEAE3;
+        }
+
+        #form {
+            width: 50%;
+            height: 60%;
+            background-color: #e6d9c7;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1vw 2vw;
+            gap: 1vw;
+            border-radius: 10px;
+        }
+
+        .heading {
+            font-size: 2.5vw;
+            color: crimson;
+            font-weight: 600;
+        }
+
+        .url-tag {
+            font-size: 2vw;
+            font-weight: 600;
+        }
+
+        .input {
+            width: 100%;
+            padding: 1vw;
+            font-size: 1.2vw;
+            border-radius: 10px;
+        }
+
+        input::placeholder {
+            font-size: 1.2vw;
+            text-align: center;
+        }
+
+        .bttn {
+            padding: 1vw 2vw;
+            width: 100%;
+            border: none;
+            background-color: white;
+            color: crimson;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 1.2vw;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bttn::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: crimson;
+            top: 100%;
+            left: 0;
+            border-radius: 10px;
+            transition: all ease 0.3s;
+        }
+
+        .bttn:hover::after {
+            top: 0;
+        }
+
+        .bttn a {
+            text-decoration: none;
+            color: crimson;
+            position: relative;
+            z-index: 9;
+        }
+
+        .bttn:hover a {
+            color: white;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 600px) {
+            .wrapper {
+                padding: 5% 2%;
+                background-color: #EFEAE3;
+            }
+
+            #form {
+                width: 90%;
+                height: auto;
+                padding: 5% 3%;
+                gap: 3vw;
+                border-radius: 8px;
+                box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .heading {
+                font-size: 5vw;
+                color: crimson;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .url-tag {
+                font-size: 4vw;
+                font-weight: 600;
+                text-align: center;
+            }
+
+            .input {
+                padding: 4% 5%;
+                font-size: 4vw;
+                border-radius: 8px;
+            }
+
+            input::placeholder {
+                font-size: 4vw;
+                text-align: center;
+            }
+
+            .bttn {
+                padding: 4% 6%;
+                font-size: 4vw;
+                width: 100%;
+                border-radius: 8px;
+                background-color: crimson;
+                color: white;
+                cursor: pointer;
+                transition: background-color 0.3s ease-in-out;
+            }
+
+            .bttn:hover {
+                opacity: 0.9;
+            }
+
+            #minicircle {
+                width: 12px;
+                height: 12px;
+                transition: all 0.4s ease;
+            }
+        }
+    </style>
+    <title>Phishing Link Classifier</title>
+</head>
+<body>
+    <div id="minicircle"></div>
+    <div class="wrapper">
+        <form id="form" method="post" action="/" class="mt-4">
+            <div class="mb-3">
+                <div class="heading">Phishing Link Classifier</div>
+                <div class="url-tag">Enter URL</div>
+                <input class="input" type="text" name="url" placeholder="https://example.com" autofocus autocomplete="off" required>
+                <button type="submit" class="bttn">SUBMIT</button>
+            </div>
+        </form>
+        {% if result %}
+        <div class="mt-4">
+            <h3 class="text-center">Result:</h3>
+            <div class="alert {% if result == 'Legitimate' %}alert-success{% else %}alert-danger{% endif %} text-center" role="alert">
+                {{ result }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+    <script>
+        function circleMove() {
+            window.addEventListener("mousemove", function(details) {
+                document.querySelector("#minicircle").style.transform = `translate(${details.clientX}px, ${details.clientY}px)`;
+            });
+        }
+
+        function firstPageAnim() {
+            var t1 = gsap.timeline();
+            t1.from("#form", {
+                y: '-10',
+                opacity: 0,
+                ease: Expo.easeInOut,
+                duration: 1.5
+            });
+        }
+
+        circleMove();
+        firstPageAnim();
+    </script>
+</body>
+</html>

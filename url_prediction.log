@@ -1,0 +1,127 @@
+2024-12-21 03:15:56,828:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-21 03:15:56,828:INFO:[33mPress CTRL+C to quit[0m
+2024-12-21 03:15:56,829:INFO: * Restarting with stat
+2024-12-21 03:15:57,681:WARNING: * Debugger is active!
+2024-12-21 03:15:57,694:INFO: * Debugger PIN: 139-757-180
+2024-12-21 03:16:13,167:INFO:127.0.0.1 - - [21/Dec/2024 03:16:13] "GET / HTTP/1.1" 200 -
+2024-12-21 03:16:13,180:INFO:127.0.0.1 - - [21/Dec/2024 03:16:13] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-12-21 03:16:13,706:INFO:127.0.0.1 - - [21/Dec/2024 03:16:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-21 03:16:29,694:INFO:URL: https://www.youtube.com/results?search_query=phisphing+classifer+using+ml, Prediction: Legitimate
+2024-12-21 03:16:29,696:INFO:127.0.0.1 - - [21/Dec/2024 03:16:29] "POST / HTTP/1.1" 200 -
+2024-12-21 03:16:29,714:INFO:127.0.0.1 - - [21/Dec/2024 03:16:29] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-12-21 03:17:35,756:INFO:URL: https://www.youtube.com/results?search_query=hello+world, Prediction: Legitimate
+2024-12-21 03:17:35,758:INFO:127.0.0.1 - - [21/Dec/2024 03:17:35] "POST / HTTP/1.1" 200 -
+2024-12-21 03:17:35,775:INFO:127.0.0.1 - - [21/Dec/2024 03:17:35] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-12-21 03:29:34,411:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-21 03:29:34,411:INFO:[33mPress CTRL+C to quit[0m
+2024-12-21 03:29:34,412:INFO: * Restarting with stat
+2024-12-21 03:29:35,356:WARNING: * Debugger is active!
+2024-12-21 03:29:35,370:INFO: * Debugger PIN: 139-757-180
+2024-12-21 03:29:53,144:INFO:URL: https://www.youtube.com/results?search_query=hello+world, Prediction: Legitimate, Probabilities: [1. 0.]
+2024-12-21 03:29:53,154:INFO:127.0.0.1 - - [21/Dec/2024 03:29:53] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-21 03:29:53,171:INFO:127.0.0.1 - - [21/Dec/2024 03:29:53] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-21 03:29:53,171:INFO:127.0.0.1 - - [21/Dec/2024 03:29:53] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-21 03:29:53,182:INFO:127.0.0.1 - - [21/Dec/2024 03:29:53] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=ewwTKqA0PhNSBkTsrFtK HTTP/1.1" 200 -
+2024-12-21 03:30:02,424:INFO:127.0.0.1 - - [21/Dec/2024 03:30:02] "GET / HTTP/1.1" 200 -
+2024-12-21 03:30:14,652:INFO:URL: https://www.youtube.com/results?search_query=hello+world, Prediction: Legitimate, Probabilities: [1. 0.]
+2024-12-21 03:30:14,655:INFO:127.0.0.1 - - [21/Dec/2024 03:30:14] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-21 03:30:14,665:INFO:127.0.0.1 - - [21/Dec/2024 03:30:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 03:30:14,665:INFO:127.0.0.1 - - [21/Dec/2024 03:30:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 03:30:14,673:INFO:127.0.0.1 - - [21/Dec/2024 03:30:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=ewwTKqA0PhNSBkTsrFtK HTTP/1.1[0m" 304 -
+2024-12-21 03:31:13,161:INFO: * Detected change in '/Users/syedmuhammadaskari/Desktop/Information Security Project/finalfile.py', reloading
+2024-12-21 03:31:13,346:INFO: * Restarting with stat
+2024-12-21 03:31:14,702:WARNING: * Debugger is active!
+2024-12-21 03:31:14,714:INFO: * Debugger PIN: 139-757-180
+2024-12-21 03:31:20,671:INFO:127.0.0.1 - - [21/Dec/2024 03:31:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-21 03:31:20,682:INFO:127.0.0.1 - - [21/Dec/2024 03:31:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 03:31:20,682:INFO:127.0.0.1 - - [21/Dec/2024 03:31:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 03:31:20,686:INFO:127.0.0.1 - - [21/Dec/2024 03:31:20] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=X3uglMDGSqcBf0qThwq8 HTTP/1.1" 200 -
+2024-12-21 03:31:41,928:INFO:127.0.0.1 - - [21/Dec/2024 03:31:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-12-21 03:31:41,938:INFO:127.0.0.1 - - [21/Dec/2024 03:31:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-21 03:31:41,939:INFO:127.0.0.1 - - [21/Dec/2024 03:31:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-21 03:31:41,944:INFO:127.0.0.1 - - [21/Dec/2024 03:31:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=X3uglMDGSqcBf0qThwq8 HTTP/1.1[0m" 304 -
+2024-12-21 03:32:22,233:INFO: * Detected change in '/Users/syedmuhammadaskari/Desktop/Information Security Project/finalfile.py', reloading
+2024-12-21 03:32:22,405:INFO: * Restarting with stat
+2024-12-21 03:32:23,801:WARNING: * Debugger is active!
+2024-12-21 03:32:23,812:INFO: * Debugger PIN: 139-757-180
+2024-12-21 03:32:30,874:INFO: * Detected change in '/Users/syedmuhammadaskari/Desktop/Information Security Project/finalfile.py', reloading
+2024-12-21 03:32:30,970:INFO: * Restarting with stat
+2024-12-21 03:32:32,054:WARNING: * Debugger is active!
+2024-12-21 03:32:32,065:INFO: * Debugger PIN: 139-757-180
+2024-12-21 03:32:46,905:INFO:URL: https://www.youtube.com/results?search_query=hello+world, Prediction: Legitimate
+2024-12-21 03:32:46,911:INFO:127.0.0.1 - - [21/Dec/2024 03:32:46] "POST / HTTP/1.1" 200 -
+2024-12-21 03:33:26,370:INFO:URL: http://www.thegrillonthesquare.co.uk/language/es-ES/systemvodaupdate/login_index.html, Prediction: Phishing
+2024-12-21 03:33:26,371:INFO:127.0.0.1 - - [21/Dec/2024 03:33:26] "POST / HTTP/1.1" 200 -
+2024-12-21 03:34:47,764:INFO:URL: https://classroom.google.com, Prediction: Legitimate
+2024-12-21 03:34:47,769:INFO:127.0.0.1 - - [21/Dec/2024 03:34:47] "POST / HTTP/1.1" 200 -
+2024-12-21 18:15:35,028:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-21 18:15:35,029:INFO:[33mPress CTRL+C to quit[0m
+2024-12-21 18:15:35,030:INFO: * Restarting with stat
+2024-12-21 18:15:35,945:WARNING: * Debugger is active!
+2024-12-21 18:15:35,957:INFO: * Debugger PIN: 139-757-180
+2024-12-21 18:17:44,590:INFO:URL: https://login.wancom.net.pk/#/login, Prediction: Legitimate
+2024-12-21 18:17:44,601:INFO:127.0.0.1 - - [21/Dec/2024 18:17:44] "POST / HTTP/1.1" 200 -
+2024-12-21 18:17:44,653:INFO:127.0.0.1 - - [21/Dec/2024 18:17:44] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2024-12-21 18:17:44,659:INFO:127.0.0.1 - - [21/Dec/2024 18:17:44] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2024-12-21 18:19:32,898:INFO:URL: https://played-drum-achieved-makes.trycloudflare.com, Prediction: Phishing
+2024-12-21 18:19:32,899:INFO:127.0.0.1 - - [21/Dec/2024 18:19:32] "POST / HTTP/1.1" 200 -
+2024-12-21 21:51:22,660:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-21 21:51:22,661:INFO:[33mPress CTRL+C to quit[0m
+2024-12-21 21:51:22,662:INFO: * Restarting with stat
+2024-12-21 21:51:23,643:WARNING: * Debugger is active!
+2024-12-21 21:51:23,656:INFO: * Debugger PIN: 139-757-180
+2024-12-21 21:51:43,087:INFO:URL: https://chatgpt.com/c/6765e6a4-ca0c-8005-85d6-451121d11abd, Prediction: Phishing
+2024-12-21 21:51:43,090:INFO:127.0.0.1 - - [21/Dec/2024 21:51:43] "POST / HTTP/1.1" 200 -
+2024-12-21 21:51:43,103:INFO:127.0.0.1 - - [21/Dec/2024 21:51:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-21 21:51:43,105:INFO:127.0.0.1 - - [21/Dec/2024 21:51:43] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-21 21:51:51,636:INFO:URL: https://chatgpt.com/c/6765e6a4-ca0c-8005-85d6-451121d11abd, Prediction: Phishing
+2024-12-21 21:51:51,636:INFO:127.0.0.1 - - [21/Dec/2024 21:51:51] "POST / HTTP/1.1" 200 -
+2024-12-21 21:51:51,643:INFO:127.0.0.1 - - [21/Dec/2024 21:51:51] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-21 21:51:51,644:INFO:127.0.0.1 - - [21/Dec/2024 21:51:51] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-21 21:51:57,961:INFO:URL: https://chatgpt.com/c/6765e6a4-ca0c-8005-85d6-451121d11abd, Prediction: Phishing
+2024-12-21 21:51:57,961:INFO:127.0.0.1 - - [21/Dec/2024 21:51:57] "POST / HTTP/1.1" 200 -
+2024-12-21 21:51:57,971:INFO:127.0.0.1 - - [21/Dec/2024 21:51:57] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-21 21:51:57,972:INFO:127.0.0.1 - - [21/Dec/2024 21:51:57] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-21 21:52:06,937:INFO:URL: https://chatgpt.com/c/6765e6a4-ca0c-8005-85d6-451121d11abd, Prediction: Phishing
+2024-12-21 21:52:06,938:INFO:127.0.0.1 - - [21/Dec/2024 21:52:06] "POST / HTTP/1.1" 200 -
+2024-12-21 21:52:06,945:INFO:127.0.0.1 - - [21/Dec/2024 21:52:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-21 21:52:06,946:INFO:127.0.0.1 - - [21/Dec/2024 21:52:06] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-21 21:52:19,551:INFO:URL: https://www.youtube.com/results?search_query=hello+world, Prediction: Legitimate
+2024-12-21 21:52:19,552:INFO:127.0.0.1 - - [21/Dec/2024 21:52:19] "POST / HTTP/1.1" 200 -
+2024-12-21 21:52:19,576:INFO:127.0.0.1 - - [21/Dec/2024 21:52:19] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-21 21:52:19,577:INFO:127.0.0.1 - - [21/Dec/2024 21:52:19] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-21 21:55:15,667:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-21 21:55:15,667:INFO:[33mPress CTRL+C to quit[0m
+2024-12-21 21:55:15,668:INFO: * Restarting with stat
+2024-12-21 21:55:16,627:WARNING: * Debugger is active!
+2024-12-21 21:55:16,640:INFO: * Debugger PIN: 139-757-180
+2024-12-24 13:29:15,318:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 13:29:15,318:INFO:[33mPress CTRL+C to quit[0m
+2024-12-24 13:29:15,319:INFO: * Restarting with stat
+2024-12-24 13:29:16,156:WARNING: * Debugger is active!
+2024-12-24 13:29:16,169:INFO: * Debugger PIN: 139-757-180
+2024-12-24 13:29:29,110:INFO:127.0.0.1 - - [24/Dec/2024 13:29:29] "GET / HTTP/1.1" 200 -
+2024-12-24 13:29:29,127:INFO:127.0.0.1 - - [24/Dec/2024 13:29:29] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:29:29,133:INFO:127.0.0.1 - - [24/Dec/2024 13:29:29] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-24 13:29:40,915:INFO:URL: https://www.youtube.com, Prediction: Legitimate
+2024-12-24 13:29:40,916:INFO:127.0.0.1 - - [24/Dec/2024 13:29:40] "POST / HTTP/1.1" 200 -
+2024-12-24 13:29:40,931:INFO:127.0.0.1 - - [24/Dec/2024 13:29:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2024-12-24 13:29:40,932:INFO:127.0.0.1 - - [24/Dec/2024 13:29:40] "[33mGET /script.js HTTP/1.1[0m" 404 -
+2024-12-24 13:32:57,388:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 13:32:57,389:INFO:[33mPress CTRL+C to quit[0m
+2024-12-24 13:32:57,390:INFO: * Restarting with stat
+2024-12-24 13:32:58,393:WARNING: * Debugger is active!
+2024-12-24 13:32:58,404:INFO: * Debugger PIN: 139-757-180
+2024-12-24 13:33:06,591:INFO:127.0.0.1 - - [24/Dec/2024 13:33:06] "GET / HTTP/1.1" 200 -
+2024-12-24 13:33:20,542:INFO:URL: https://pwskills.com/learn/course/c-foundation/63a0ba6180762892138f404f/lesson/6492c1e06977cc716fe10b6f/?from=%2Flearn%2F&clickText=continue&page_from=my_course_page&section=your_courses&sectionId=63a0ba6180762808898f40c2&lectureType=video, Prediction: Legitimate
+2024-12-24 13:33:20,543:INFO:127.0.0.1 - - [24/Dec/2024 13:33:20] "POST / HTTP/1.1" 200 -
+2024-12-24 13:33:54,609:INFO:127.0.0.1 - - [24/Dec/2024 13:33:54] "GET / HTTP/1.1" 200 -
+2024-12-24 13:37:29,628:INFO:URL: https://boxed-sterling-has-chicago.trycloudflare.com, Prediction: Phishing
+2024-12-24 13:37:29,630:INFO:127.0.0.1 - - [24/Dec/2024 13:37:29] "POST / HTTP/1.1" 200 -
